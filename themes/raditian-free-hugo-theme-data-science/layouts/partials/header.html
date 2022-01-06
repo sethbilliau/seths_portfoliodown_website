@@ -1,0 +1,50 @@
+<header class="header fixed-top rad-animation-group" id="header">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="{{ .Site.BaseURL | absURL }}">
+        <span>{{ .Site.Params.logo.text1 }}</span>
+        <span>{{ .Site.Params.logo.text2 }}</span>
+        <!-- <img
+          class="img-responsive"
+          src="img/logo-dark.png"
+          srcset="img/logo-dark.png 1x, img/logo-dark@2x.png 2x"
+          alt="Header Logo"
+        /> -->
+
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .Site.BaseURL | absURL }}">HOME</a>
+          </li>
+          {{ range .Site.Menus.header }}
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="{{ .URL }}"
+              >{{ .Name | upper }}</a
+            >
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>

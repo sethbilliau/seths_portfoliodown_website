@@ -1,0 +1,224 @@
+head:
+  title: "Seth Billiau's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hi, I’m Seth Billiau."
+  subtitle: "Data Scientist, Consultant"
+  description: "Welcome to my data science portfolio!"
+  image:
+    x: "website_images/10kiterations.gif"
+    _2x: "website_images/10kiterations.gif"
+  imageMobile:
+    x: "website_images/10kiterations.gif"
+    _2x: "website_images/10kiterations.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Seth"
+    URL: "mailto:sethbilliau@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/seth-billiau-b4b062136/"
+
+    - icon: "github"
+      URL: "https://github.com/sethbilliau"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/sethbilliau"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    I am a graduate of Harvard University with a Bachelor of Arts in Statistics (Data Science) and a minor in Government. Raised in Grand Rapids, Michigan, I gained experience as a political organizer and campaign manager, leveraging data to win important local elections during the competitive 2016, 2018, and 2020 election cycles. Now, I work as a data scientist, bringing my passion, technical know-how, and strong communication skills to new challenges at Booz Allen Hamilton.
+    </p>
+    <p class="lead">
+    <strong>My area of focus</strong> is applying data science to business. 
+    I create value for companies by understanding the financial
+    cost of problems and delivering a return-on-investment with my solutions. 
+    I enjoy learning, working with stakeholders, and making better decisions with data.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.sethbilliau.com"
+  image:
+    x: "website_images/headshot_square.jpg"
+    _2x: "website_images/headshot_square.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 2+ years of experience working in the intersection of technology and government."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/seth-billiau-b4b062136/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "/cv/Billiau_Seth_20210117.docx"
+
+  items:
+    - title: "Data Scientist, Consultant"
+      company: "Booz Allen Hamilton"
+      duration: "July 2021 - Present"
+
+    - title: "Legislative Aide - 75th District"
+      company: "State of Michigan House of Representatives"
+      duration: "April 2020 - September 2020"
+
+    - title: "Teaching Fellow/Course Assistant"
+      company: "Harvard University"
+      duration: "September 2018 - May 2021"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Harvard University"
+      year: "2017-2021"
+      degree: "Bachelor of Arts (Statistics)"
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Gibbs Sampling Explained" 
+      description: "Gibbs sampling is one of the most popular Markov Chain Monte Carlo (MCMC) algorithms with applications in Bayesian statistics, computational linguistics, political science, and more. In my first article published with Towards Data Science, I explained how Gibbs sampling really works through a series of visualizations."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read the Article"
+        URL: "https://towardsdatascience.com/gibbs-sampling-explained-b271f332ed8d"
+      image:
+        x: "website_images/iteration_graphs.jpg"
+        _2x: "website_images/iteration_graphs.jpg"
+      is_even: false
+    
+    - title: "From Scratch: Permutation Feature Importance for ML Interpretability"
+      description: "Use permutation feature importance to discover which features in your dataset are useful for prediction."      
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read the Article"
+        URL: "https://towardsdatascience.com/from-scratch-permutation-feature-importance-for-ml-interpretability-b60f7d5d1fe9"
+      image:
+        x: "website_images/featureimp.jpeg"
+        _2x: "website_images/featureimp.jpeg"
+      is_even: true
+      
+    - title: "Visualizing 2020 Ivy League Men's Basketball"
+      description: "R Shiny app on 2020 Ivy League Men’s Basketball statistics with interactive visualizations for easy comparison."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://sbilliau.shinyapps.io/ivy_mbb2020/"
+      image:
+        x: "website_images/player_viz.png"
+        _2x: "website_images/player_viz.png"
+      is_even: false
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+  
+    - name: "Justin Kurland, PhD"
+      position: "Lead Data Scientist, Northwestern Mutual"
+      content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
+      image:
+        x: "img/testimonials/justin.jpg"
+        _2x: "img/testimonials/justin.jpg"
+        
+    - name: "Chris Selig"
+      position: "Data Scientist"
+      content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
+      image:
+        x: "img/testimonials/chris.jpg"
+        _2x: "img/testimonials/chris.jpg"
+
+    
+
+    - name: "Mohana Krishna Chittoor"
+      position: "Lead Data Scientist, Money View"
+      content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
+      image:
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
+
+
+# contact
+contact:
+  enable: false
+  # title: "Contact Matt"
+  #   
+  # image:
+  #   x: "img/who-am-i/user-picture-2.jpg"
+  #   _2x: "img/who-am-i/user-picture-2.jpg"
+  #   
+  # button:
+  #   icon: "icon-mail-fill"
+  #   btnText: "Send Message"
+  #   btnAction: 'mailto:your-email@gmail.com'
+  #   
+  # phone:
+  #   title: "Phone Number"
+  #   number: "--"
+  # email:
+  #   title: "Email"
+  #   email: '<a href="mailto:your-email@gmail.com">your-email@gmail.com</a>'
+  # address:
+  #   title: "Address"
+  #   address: "--"
+  
+  
+# newsletter
+# newsletter:
+#   enable: false
+#   title: "Newsletter subscription"
+#   success_message: "Successfully subscribed"
+#   error_message: "Error while subscribing."
+#   note: "We'll never share your email with anyone else."
+#   
