@@ -3,7 +3,7 @@ languageCode: en-us
 theme: raditian-free-hugo-theme-data-science
 params:
   footer:
-    copyright: © Seth Billiau. All rights reserved.
+    copyright: © Matt Dancho. All rights reserved.
     site_logo:
       _2x: img/general/business-science-logo.png
       alt: Design & Code - Business Science
