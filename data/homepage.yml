@@ -37,12 +37,6 @@ about:
     <p class="lead">
     I am a graduate of Harvard University with a Bachelor of Arts in Statistics (Data Science) and a minor in Government. Raised in Grand Rapids, Michigan, I gained experience as a political organizer and campaign manager, leveraging data to win important local elections during the competitive 2016, 2018, and 2020 election cycles. Now, I work as a data scientist, bringing my passion, technical know-how, and strong communication skills to new challenges at Booz Allen Hamilton.
     </p>
-    <p class="lead">
-    <strong>My area of focus</strong> is applying data science to business. 
-    I create value for companies by understanding the financial
-    cost of problems and delivering a return-on-investment with my solutions. 
-    I enjoy learning, working with stakeholders, and making better decisions with data.
-    </p>
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"

@@ -15,5 +15,6 @@ setwd(pathToDirectory)
 # Create a new portfolio site
 portfoliodown::new_portfolio_site()
 
-
-portfoliodown::serve_site()
+# Serve the site locally (at localhost:1234)
+portfoliodown::serve_site(port = 1234)
+??serve_site
